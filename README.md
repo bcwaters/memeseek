@@ -33,4 +33,6 @@ nextjs tailwind styling
 trpc for typesafe api with drizzle orm
 t3 app style:
 
-  Decide on userbase interactions: template editor, template upload, user statistics(scoreboard), user profile(links to social media)
+pushing a commit to test vercel githook deployment
+
+Decide on userbase interactions: template editor, template upload, user statistics(scoreboard), user profile(links to social media)
