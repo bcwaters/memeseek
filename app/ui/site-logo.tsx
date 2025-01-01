@@ -1,13 +1,17 @@
 import { StrikethroughIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '@/app/ui/fonts';
+import Image from 'next/image'
 
 export default function AcmeLogo() {
   return (
-    <div
-      className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
-    >
-      <StrikethroughIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[10px]">AFM</p>
-    </div>
+      <div>
+      <Image
+        src="/favicon_temp.png"
+        width={100}
+        height={120}
+        className="block md:block"
+        alt="stub of catalog img"
+      /><div>memeseek</div>
+      </div>
   );
 }

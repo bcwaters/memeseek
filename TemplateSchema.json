@@ -1,0 +1,12 @@
+{
+  "id": "number",
+  "name": "string",
+  "location": "directorypathstring",
+  "creator": "creator_id of meme",
+  "coin_relation": "crypto related to meme",
+  "community_origin" : "reddit,4chan,twitter,etc",
+  "meme_rating" : "Stale,Classic,Rising",
+  "ranking": "numercial value representing place in use"
+  
+
+}

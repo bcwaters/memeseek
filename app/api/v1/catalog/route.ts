@@ -16,8 +16,6 @@ import {logger} from '../../../lib/logger';
  */
 
 export async function GET() {
-
-
    try {
        logger.debug('querying ORM: getAllTemplates()')
 

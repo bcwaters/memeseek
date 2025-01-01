@@ -3,11 +3,11 @@ Seemless meme template delivery.
 
 Meme templates serve as a neutral foundation to convey ones idealogy in a digestable manner
 ## Installation
-From the root directory install the packages with the command `npm run install`
+From the root directory install the packages with the command `pnpm install`
 
 run the app with `npm run dev`
 
-confirm the app is running in the browser [localhost:3000](localhost:3000)
+confirm the app is running in the browser [localhost:3000](http://localhost:3000)
 
 ### TODOS
  - decide on image directory design pattern and implement it
@@ -24,7 +24,11 @@ confirm the app is running in the browser [localhost:3000](localhost:3000)
 
 - HUGE TASK migrate backend to  Nestjs once the backend api has outside users
 
-- find documentation package for nextjs [nextjsswagger](https://www.npmjs.com/package/next-swagger-doc)
+- finish documentation of api in swagger
+
+- remove annotations ignore typescript and fix errors
+
+- set up upload component
 
 - Find efficient way to source quality meme template images
 
@@ -36,13 +40,13 @@ confirm the app is running in the browser [localhost:3000](localhost:3000)
 
 - Set up environment variables to set log levels in project
 
+- set up user login
+
+- set up crytpo wallet donation page/banner
+
+- consider token integration
+
 - OPEN SOURCE CONTRIBUTION OPPPORTUITY: next-swagger-doc current version incompatible, rolled back to 0.4.0
 
 ### Random notes
-nextjs tailwind styling
-trpc for typesafe api with drizzle orm
-t3 app style:
-
-pushing a commit to test vercel githook deployment
-
 Decide on userbase interactions: template editor, template upload, user statistics(scoreboard), user profile(links to social media)
