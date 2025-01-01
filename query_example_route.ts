@@ -1,15 +1,15 @@
-import { getAllTemplates } from '../../db/drizzle-queries.ts'
-
-export async function GET() {
-
-console.log(await getAllTemplates())
-
-   try {
-   	return Response.json(await getAllTemplates());
-   } catch (error) {
-   	return Response.json({ error }, { status: 500 });
-   }
-}
+// import { getAllTemplates } from '../../db/drizzle-queries.ts'
+//
+// export async function GET() {
+//
+// console.log(await getAllTemplates())
+//
+//    try {
+//    	return Response.json(await getAllTemplates());
+//    } catch (error) {
+//    	return Response.json({ error }, { status: 500 });
+//    }
+// }
 
 //documenation https://orm.drizzle.team/docs/get-started/postgresql-new
 //

@@ -1,16 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link'
-import { stubImageLocation } from '../lib/utils.ts';
-import { mockGetTemplates } from '../lib/utils.ts';
+import {logger} from '../lib/logger';
 
 //TODO set up multiple HOSTNAMES in urls
-console.log("CALLING API from catalog page:")
+logger.info("CALLING API from catalog page:")
 let data = await fetch(process.env.HOSTNAME+'/api/v1/catalog')
-console.log(data)
+
 //let templates: {id: string, name: string, location:string}[] = []
 let templates = await data.json()//await convertStreamToJson(data.body)
-console.log("Response.body data:\n", templates)
-
+logger.info("Response.body data:")
+logger.info(templates)
 
 export default function Page() {
    return <div> Click template to start editing
