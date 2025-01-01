@@ -34,8 +34,9 @@ confirm the app is running in the browser [localhost:3000](localhost:3000)
 
 - create post calls for uploading templates
 
-- implement logger
+- Set up environment variables to set log levels in project
 
+- OPEN SOURCE CONTRIBUTION OPPPORTUITY: next-swagger-doc current version incompatible, rolled back to 0.4.0
 
 ### Random notes
 nextjs tailwind styling

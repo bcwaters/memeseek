@@ -7,13 +7,14 @@ import {logger} from '../../../lib/logger';
 
 /**
  * @swagger
- * /api/hello:
+ * /api/v1/catalog:
  *   get:
- *     description: Returns the hello world
+ *     description: Returns an array of templates
  *     responses:
  *       200:
- *         description: Hello World!
+ *         description: add example response
  */
+
 export async function GET() {
 
 
